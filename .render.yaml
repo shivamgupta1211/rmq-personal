@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: rabbitmq
+    env: docker
+    plan: free
+    autoDeploy: true
+    dockerfilePath: ./Dockerfile
+    ports:
+      - 5672 # RabbitMQ clients
+      - 15672 # Management UI
