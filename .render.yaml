@@ -7,4 +7,4 @@ services:
     dockerfilePath: ./Dockerfile
     ports:
       - 5672 # RabbitMQ clients
-      - 15672 # Management UI
+      - 10000 # Management UI
