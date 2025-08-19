@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: rabbitmq
+    env: docker
+    dockerfilePath: ./bitnami/rabbitmq/15/debian-12/Dockerfile
+    autoDeploy: true
